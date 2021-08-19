@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: coral;
+    display: flex;
+}
+
+.empty {
+    width: 166px;
+    height: 166px;
+    border: 3px solid crimson;
+    background-color: #fff;
+    margin: 20px;
+    padding: 5px;
+}
+
+.fill {
+    background-image: url('image.jpg');
+    width: 150px;
+    height: 150px;
+}
